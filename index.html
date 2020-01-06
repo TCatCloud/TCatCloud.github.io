@@ -1,347 +1,507 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 
-    <!-- Document Title -->
-    <title>TCat云服务</title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-
-    <!-- CSS Files -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400%7CPoppins:400,400i,500,700">
-    <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="plugins/swiper/swiper.min.css">
-    <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.min.css">
-    <link rel="stylesheet" href="plugins/color-switcher/color-switcher.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/colors/theme-color-1.css">
-    <link rel="stylesheet" href="css/custom.css">
+<title>TCat云服务</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <!-- Preloader -->
-    <div class="preLoader">
-        <span class="spin"></span>
-    </div>
-
-    <!-- Main header -->
-    <header class="main-header bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3 col-lg-2 col-md-3 col-sm-5 col-9">
-                    <!-- Logo 
-                    <div class="logo" data-animate="fadeInDown" data-delay=".5">
-                        <a href="index.html">
-                            <img src="img/logo-white.png" alt="Crypto Cloud">
-                            <img src="img/logo-blue.png" alt="Crypto Cloud">
-                        </a>
-                    </div>-->
-                    <!-- End of Logo -->
-                </div>
-                <div class="col-xl-7 col-lg-8 col-md-6 col-sm-3 col-3">
-                    <nav data-animate="fadeInDown" data-delay=".75">
-                        <!-- Header-menu -->
-                        <!--<div class='header-menu'>
-                            <ul>
-                                <li class="active">
-                                    <a href='#'>首页</a>
-                                </li>
-                                <li><a href='#'>套餐价格</a></li>
-                                <li><a href='#' target="_blank">客户端及教程</a></li>
-                                <li><a href='#' target="_blank">通知频道</a></li>
-                            </ul>
-                        </div>-->
-                        <!-- End of Header-menu -->
-                    </nav>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 d-none d-sm-block">
-                    <!-- Register button -->
-                    <div class="register-button" data-animate="fadeInDown" data-delay="1">
-                        <a class="btn btn-transparent btn-block" href="https://tcat.top"><i class="fas fa-key"></i>用户中心</a>
-                    </div>
-                    <!-- End of Register button -->
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- End of Main header -->
-
-    <!-- Banner -->
-    <section class="main-banner bg-primary bg-rotate position-relative">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-8 col-lg-10">
-                    <!-- Banner content -->
-                    <div class="banner-content text-center text-white">
-                        <h2 data-animate="fadeInUp" data-delay="1.2">Welcome to<br>TCat Cloud Service</h2>
-                        <p data-animate="fadeInUp" data-delay="1.3">我们致力于让用户享受到更优质的服务和更优惠的价格。我们的云服务，支持各种设备访问，给您带来最良好的使用体验！</p>
-                        <ul class="list-inline" data-animate="fadeInUp" data-delay="1.4">
-                            <li><a class="btn btn-transparent" href="https://tcat.top">用户中心</a></li>
-                        </ul>
-                    </div>
-                    <!-- End of Banner content -->
-                </div>
-            </div>
-            <a class="goDown" data-animate="fadeInUp" data-delay="1.5" href="#Introduction"><i class="fas fa-arrow-down bounce"></i></a>
-        </div>
-    </section>
-    <!-- End of Banner -->
-
-    <!-- Home features --><div id="Introduction">
-    <section class="home-features pt-175 pb-175">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-home-feature" data-animate="fadeInUp" data-delay=".3">
-                        <img class="svg" src="img/security.svg" alt="">
-                        <h3>数据安全优先</h3>
-                        <p>严格保护用户隐私。所有流量数据流和客户端帐户信息都被严格加密。</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-home-feature" data-animate="fadeInUp" data-delay=".1">
-                        <img class="svg" src="img/high.svg" alt="">
-                        <h3>高速冲浪体验</h3>
-                        <p>针对国内网络优化的全球极速CN2 GIA，让您的网络如虎添翼。</p>
-                    </div>
-                </div>
-                
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-home-feature" data-animate="fadeInUp" data-delay=".5">
-                        <img class="svg" src="img/guard.svg" alt="">
-                        <h3>使用方便快捷</h3>
-                        <p>一键下单，自动开通。我们有专业的客服团队在最短的时间内回答您的疑问。</p>
-                    </div>
-                </div>
-                
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-home-feature" data-animate="fadeInUp" data-delay=".7">
-                        <img class="svg" src="img/support.svg" alt="">
-                        <h3>不断创新进步</h3>
-                        <p>更快，更方便，更好看是我们的目标。您将与我们一起体验技术创新的优化。</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    </div><!-- End of Home features -->
-
-    <!-- Pricing plans -->
-    <section class="pricing-plans bg-light bg-rotate position-relative">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-8">
-                    <!-- Section title -->
-                    <div class="section-title text-center">
-                        <h2 data-animate="fadeInUp" data-delay=".1">由您的需求选择套餐</h2>
-                        <p data-animate="fadeInUp" data-delay=".2">TCat云服务 具有高性价比的服务，多条大带宽高速线路直连大陆，即刻起航无需等待！</p>
-                    </div>
-                    <!-- End of Section title -->
-                </div>
-            </div>
-            <div class="row">
-                <!-- Single pricing plan -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-pricing-plan text-center" data-animate="fadeInUp" data-delay=".1">
-                        <h3>流量派</h3>
-                        <p>能用党首选</p>
-                        <ul class="karla list-unstyled text-center">
-                            <li>每月 32~256G 流量</li>
-                            <li>包含所有常规1倍率节点</li>
-                            <li>解锁部分地区限制</li>
-                            <li>高达 1Gbps 速率可用</li>
-                            <li>多客户端同时在线</li>
-                            <li>流量每月1号重置</li>
-                        </ul>
-                        <span class="text-center"><sup>￥</sup>10<sub class="karla">元/起</sub></span>
-                        <div class="purchase bg-dark bg-rotate position-relative">
-                            <a href="https://tcat.top" class="btn btn-transparent">立即购买</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of Single pricing plan -->
-                
-                <!-- Single pricing plan -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-pricing-plan text-center" data-animate="fadeInUp" data-delay=".3">
-                        <h3>极速派</h3>
-                        <p>极客党首选</p>
-                        <ul class="karla list-unstyled text-center">
-                            <li>每月 32~256G 流量</li>
-                            <li>包含所有优质2倍率节点</li>
-                            <li>解锁部分地区限制</li>
-                            <li>高达 1Gbps 速率可用</li>
-                            <li>多客户端同时在线</li>
-                            <li>流量每月1号重置</li>
-                        </ul>
-                        <span class="text-center"><sup>￥</sup>10<sub class="karla">元/起</sub></span>
-                        <div class="purchase bg-dark bg-rotate position-relative">
-                            <a href="https://tcat.top" class="btn btn-transparent">立即购买</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of Single pricing plan -->
-                
-                <!-- Single pricing plan -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-pricing-plan text-center" data-animate="fadeInUp" data-delay=".5">
-                    	<span class="popular">Popular Sale</span>
-                        <h3>全能派</h3>
-                        <p>都要党首选</p>
-                        <ul class="karla list-unstyled text-center">
-                            <li>每月 32~256G 流量</li>
-                            <li>包含各派所有节点</li>
-                            <li>解锁部分地区限制</li>
-                            <li>高达 1Gbps 速率可用</li>
-                            <li>多客户端同时在线</li>
-                            <li>流量每月1号重置</li>
-                        </ul>
-                        <span class="text-center"><sup>￥</sup>15<sub class="karla">元/起</sub></span>
-                        <div class="purchase bg-dark bg-rotate position-relative">
-                            <a href="https://tcat.top" class="btn btn-transparent">立即购买</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of Single pricing plan -->
-                
-                <!-- Single pricing plan -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-pricing-plan text-center" data-animate="fadeInUp" data-delay=".7">
-                        <h3>定制派</h3>
-                        <p>土豪党首选</p>
-                        <ul class="karla list-unstyled text-center">
-                            <li>每月 ??~??G 流量</li>
-                            <li>包含 ??? 节点</li>
-                            <li>解锁 ??? 地区限制</li>
-                            <li>高达 ??? 速率可用</li>
-                            <li>多客户端同时在线</li>
-                            <li>流量每月1号重置</li>
-                        </ul>
-                        <span class="text-center"><sup>￥</sup>???<sub class="karla">元/起</sub></span>
-                        <div class="purchase bg-dark bg-rotate position-relative">
-                            <a href="https://tcat.top" class="btn btn-transparent">立即购买</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of Single pricing plan -->
-            </div>
-        </div>
-    </section>
-    <!-- End of Pricing plans -->
-   
-    <!-- Footer -->
-    <footer class="main-footer text-white bg-rotate position-relative">
-    	<div class="top-footer">
-			<div class="container">
-				<!--<div class="row">
-
-                    <div class="col-lg-4 col-sm-4">
-                        <div class="footer-widget">
-                            <h3 class="widget-title" data-animate="fadeInUp" data-delay=".0">什么是 V2Ray？</h3>
-                            <div class="footer-posts">
-                                <ul class="list-unstyled">
-                                    <li data-animate="fadeInUp" data-delay=".05">
-                                        <p>Project V 提供了单一的内核和多种界面操作方式。内核（V2Ray）用于实际的网络交互、路由等针对网络数据的处理，而外围的用户界面程序提供了方便直接的操作流程。
-                                        </p>
-                                    </li>
-                                    <li data-animate="fadeInUp" data-delay=".15">
-                                        <p>简单来说，它是一个代理方案（TCat云服务 正是使用了V2Ray），可以用来学习国外先进科学技术。</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-4">
-                        <div class="footer-widget">
-                            <h3 class="widget-title" data-animate="fadeInUp" data-delay=".0">V2Ray 跟 Shadowsocks 有什么区别？</h3>
-                            <div class="footer-posts">
-                                <ul class="list-unstyled">
-                                    <li data-animate="fadeInUp" data-delay=".05">
-                                        <p>区别还是有的，Shadowsocks 只是一个简单的代理工具，而 V2Ray 定位为一个平台，任何开发者都可以利用 V2Ray 提供的模块开发出新的代理软件。
-                                        </p>
-                                    </li>
-                                    <li data-animate="fadeInUp" data-delay=".15">
-                                        <p>简单来说，Shadowsocks 功能单一，V2Ray 功能强大。听起来似乎有点贬低 Shadowsocks 呢？当然不！换一个角度来看，Shadowsocks 简单好上手，V2Ray 复杂配置多。</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-4">
-                        <div class="footer-widget">
-                            <h3 class="widget-title" data-animate="fadeInUp" data-delay=".0">既然 V2Ray 复杂，为什么要用它？</h3>
-                            <div class="footer-posts">
-                                <ul class="list-unstyled">
-                                    <li data-animate="fadeInUp" data-delay=".05">
-                                        <p>更完善的协议，更强大的性能，更丰富的功能。
-                                        </p>
-                                    </li>
-                                    <li data-animate="fadeInUp" data-delay=".15">
-                                        <p>V2Ray 使用了新的自行研发的 VMess 协议，改正了 Shadowsocks 一些已有的缺点，更难被墙检测到。</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-				</div>-->
-			</div>
-		</div>
-
-		<!-- Bottom footer -->
-		<div class="bottom-footer position-relative">
-			<div class="container">
-				<div class="row align-items-center">
-                    <!-- Copyright -->
-                    <div class="col-md-5 order-last order-md-first">
-                        <span class="copyright-text" data-animate="fadeInDown" data-delay=".7">Copyright &copy; <a href="#">TCat云服务</a>. All Rights Reserved.</span>
-                    </div>
-                    <!-- End of Copyright -->
-
-                    <!-- Footer menu -->
-                    <!--<div class="col-md-7 order-first order-md-last">
-                        <ul class="footer-menu text-md-right list-inline">
-                            <li data-animate="fadeInDown" data-delay=".75"><a href="https://my.v2ray.life/cart.php">服务套餐</a></li>
-                            <li data-animate="fadeInDown" data-delay=".8"><a href="#">帮助文档</a></li>
-                            <li data-animate="fadeInDown" data-delay=".85"><a href="https://my.v2ray.life/affiliates.php">推广联盟</a></li>
-                            <li data-animate="fadeInDown" data-delay=".9"><a href="#">服务条款</a></li>
-                        </ul>
-                    </div>-->
-                    <!-- End of Footer menu -->
-                </div>
-			</div>
-
-            <!-- Back to top -->
-            <a class="back-to-top" href="#" data-animate="fadeInDown" data-delay=".95">
-                <i class="fas fa-arrow-up"></i>
+<nav id="mainNav" class="navbar navbar-default navbar-full">
+    <div class="container container-nav">
+        <div class="navbar-header">
+            <button aria-expanded="false" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="index.html">
+                <img class="logo" src="images/logo.png" alt="Hostino">
             </a>
-            <!-- End of Back to top -->
-		</div>
-		<!-- End of Bottom footer -->
-    </footer>
-    <!-- End of Footer -->
+        </div>
+        <div style="height: 1px;" role="main" aria-expanded="false" class="navbar-collapse collapse" id="bs">
+             <ul class="nav navbar-nav navbar-right">
+                <!--<li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="pages.html">Pages <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="about.html">About us</a></li>
+                      <li><a href="webhosting.html">Web hosting plans</a></li>
+                      <li><a href="domain.html">Domain names</a></li>
+                      <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="support.html">Support portal</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a class="signin-button" href="signin.html">Sign in</a></li>-->
+                <li><a class="chat-button" href="https://tcat.top">用户中心</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="top-content" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div id="main-slider">
+                    <!--<div class="slide domainsearch-slide" title="Welcome !">
+                        <div class="image-holder"><img src="images/bg1.png" alt="" /></div>
+                        <div class="b-title">Find a personal or professional domain<br>
+that stands out.</div>
+                        <div class="domain-search-holder">
+                            <form id="domain-search">
+                                <input id="domain-text" type="text" name="domain" placeholder="Search a domain name here" />
+                                <input id="search-btn" type="submit" name="submit" value="Search now" />
+                            </form>
+                        </div>
+                    </div>-->
+                    <div class="slide info-slide1" title="欢迎">
+                        <div class="image-holder"><img src="images/main-slide-img1.png" alt="" /></div>
+                        <div class="text-holder">欢迎光临<br>
+TCat云服务</div>
+                        <div class="button-holder"><a href="https://tcat.top" class="blue-button">用户中心</a></div>
+                    </div>
+                    <div class="slide info-slide2" title="开始">
+                        <div class="image-holder"><img src="images/main-slide-img2.png" alt="" /></div>
+                        <div class="text-holder">我们致力于让用户享受到更优质的服务和更优惠的价格。<br>
+并且支持各种设备访问，给您带来最良好的使用体验！</div>
+                        <div class="button-holder"><a href="https://tcat.top/#/register" class="blue-button">立即注册</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="info" class="container-fluid">
+    <canvas id="infobg" data-paper-resize="true"></canvas>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row-title">安全 稳定 高速
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="info-text">我们致力于让用户享受到更优质的服务和更优惠的价格。<br>
+我们的云服务，支持各种设备访问，给您带来最良好的使用体验！</div>
+                
+                <a href="https://tcat.top/#/register" class="white-green-shadow-button">立即注册</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="features" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row-title">为什么TCat云服务是您最好的选择？</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4">
+                <div class="mfeature-box">
+                    <div class="mfeature-icon">
+                        <div class="icon-bg"><img src="images/clouds-light.png" alt="" /></div>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="mfeature-title">底层优化</div>
+                    <div class="mfeature-details">底层网络特殊优化，可最高将丢包率降低为1/5000</div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4">
+                <div class="mfeature-box active">
+                    <div class="mfeature-icon">
+                        <div class="icon-bg"><img src="images/clouds-light.png" alt="" /></div>
+                        <i class="fa fa-ticket"></i>
+                    </div>
+                    <div class="mfeature-title">国际链路</div>
+                    <div class="mfeature-details">CN2+BGP接入，为您呈现完美的国际网络</div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4">
+                <div class="mfeature-box">
+                    <div class="mfeature-icon">
+                        <div class="icon-bg"><img src="images/clouds-light.png" alt="" /></div>
+                        <i class="fa fa-comments-o"></i>
+                    </div>
+                    <div class="mfeature-title">客服团队</div>
+                    <div class="mfeature-details">随时待命，以最快速度响应您的工单</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a class="light-blue-button" href="https://tcat.top/#/plan">全部产品</a>
+            </div>
+        </div>    
+    </div>
+</div>
+<div id="pricing" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row-title">由您的需求选择套餐</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="pricing-box pr-color1">
+                    <div class="pricing-title" title="流量派">流量派</div>
+                    <div class="pricing-box-body">
+                        <div class="pricing-amount">
+                            <div class="price">
+                                <span class="currency">¥</span><span class="amount">10</span>
+                            </div>
+                            <div class="duration">月付 起</div>
+                        </div>
 
-    <!-- JS Files -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="plugins/swiper/swiper.min.js"></script>
-    <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="plugins/parsley/parsley.min.js"></script>
-    <script src="plugins/color-switcher/color-switcher.js"></script>
-    <script src="plugins/retinajs/retina.min.js"></script>
-    <script src="plugins/waypoints/jquery.waypoints.min.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="js/scripts.js"></script>
+                        <div class="pricing-details">
+                            <ul>
+                                <li>每月 32~256G 流量</li>
+                                <li>包含所有常规1倍率节点</li>
+                                <li>解锁部分地区限制</li>
+                                <li>高达 1Gbps 速率可用</li>
+                                <li>多客户端同时在线</li>
+                                <li>流量每月1号重置</li>
+                                <!--<li>Unlimited Email Account</li>
+                                <li class="not-supported">Support 24/7</li>
+                                <li class="not-supported">One Click Install</li>
+                                <li class="not-supported">Private  SSL & IP</li>
+                                <li class="not-supported">Free VoIP Phone Service</li>-->
+                            </ul>
+                        </div>
+                        
+                        <div class="pricing-button"><a href="https://tcat.top/#/plan" class="pricing-button">立即购买</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="pricing-box pr-color3">
+                    <div class="pricing-title" title="极速派">极速派</div>
+                    <div class="pricing-box-body">
+                        <div class="pricing-amount">
+                            <div class="price">
+                                <span class="currency">¥</span><span class="amount">10</span>
+                            </div>
+                            <span class="duration">月付 起</span>
+                        </div>
+
+                        <div class="pricing-details">
+                            <ul>
+                                <li>每月 32~256G 流量</li>
+                                <li>包含所有优质2倍率节点</li>
+                                <li>解锁部分地区限制</li>
+                                <li>高达 1Gbps 速率可用</li>
+                                <li>多客户端同时在线</li>
+                                <li>流量每月1号重置</li>
+                                <!--<li>Unlimited Email Account</li>
+                                <li>Support 24/7</li>
+                                <li>One Click Install</li>
+                                <li class="not-supported">Private  SSL & IP</li>
+                                <li class="not-supported">Free VoIP Phone Service</li>-->
+                            </ul>
+                        </div>
+                        
+                        <div class="pricing-button"><a href="https://tcat.top/#/plan" class="pricing-button">立即购买</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="pricing-box pr-color2 recommended">
+                    <div class="pricing-title" title="全能派">全能派</div>
+                    <div class="pricing-box-body">
+                        <div class="pricing-amount">
+                            <div class="price">
+                                <span class="currency">¥</span><span class="amount">15</span>
+                            </div>
+                            <span class="duration">月付 起</span>
+                        </div>
+
+                        <div class="pricing-details">
+                            <ul>
+                                <li>每月 32~256G 流量</li>
+                                <li>包含各派所有节点</li>
+                                <li>解锁部分地区限制</li>
+                                <li>高达 1Gbps 速率可用</li>
+                                <li>多客户端同时在线</li>
+                                <li>流量每月1号重置</li>
+                                <!--<li>Unlimited Email Account</li>
+                                <li>Support 24/7</li>
+                                <li>One Click Install</li>
+                                <li>Private  SSL & IP</li>
+                                <li>Free VoIP Phone Service</li>-->
+                            </ul>
+                        </div>
+                        
+                        <div class="pricing-button"><a href="https://tcat.top/#/plan" class="pricing-button">立即购买</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 link-holder">
+                <a href="https://tcat.top/#/plan" class="link-with-arrow">更多套餐</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="apps" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row-title" title="全平台支持">全平台支持</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="apps-holder">
+                    <div class="apps-links-holder">
+                        <div class="app-icon-holder app-icon-holder1 opened" data-id="1">
+                            <div class="app-icon"><img src="images/wordpress.png" alt="wordpress"></div>
+                            <div class="app-title">Windows</div>
+                        </div>
+                        <div class="app-icon-holder app-icon-holder2" data-id="2">
+                            <div class="app-icon"><img src="images/joomla.png" alt="joomla"></div>
+                            <div class="app-title">Android</div>
+                        </div>
+                        <div class="app-icon-holder app-icon-holder3" data-id="3">
+                            <div class="app-icon"><img src="images/drupal.png" alt="drupal"></div>
+                            <div class="app-title">iOS</div>
+                        </div>
+                        <div class="app-icon-holder app-icon-holder4" data-id="4">
+                            <div class="app-icon"><img src="images/magento.png" alt="magento"></div>
+                            <div class="app-title">MacOS</div>
+                        </div>
+                    </div>
+                    <div class="apps-details-holder">
+                        <div class="app-details">
+                            <div class="app-details1 show-details">
+                                <div class="app-title">Microsoft Windows</div>
+                                <div class="app-text">Microsoft Windows是微软公司推出的一系列操作系统。其问世时间为1985年，起初为运行于MS-DOS之下的桌面环境，其后续版本逐渐发展成为主要为个人电脑和服务器用户设计的操作系统，并最终获得了世界个人电脑操作系统的垄断地位。</div>
+                            </div>
+                            <div class="app-details2">
+                                <div class="app-title">Android</div>
+                                <div class="app-text">Android，常见的非官方中文名称为安卓，官方译名是安致，是一个基于Linux内核的开放源代码移动操作系统，由谷歌成立的开放手持设备联盟持续领导与开发，主要设计用于触摸屏移动设备如智能手机和平板电脑与其他便携式设备。</div>
+                            </div>
+                            <div class="app-details3">
+                                <div class="app-title">iOS</div>
+                                <div class="app-text">iOS是苹果公司为其移动设备所开发的专有移动操作系统，为其公司的许多移动设备提供操作界面，支持设备包括iPhone、iPad和iPod touch。</div>
+                            </div>
+                            <div class="app-details4">
+                                <div class="app-title">MacOS</div>
+                                <div class="app-text">MacOS是苹果公司推出的基于图形用户界面操作系统，为麦金塔的主操作系统。StatCounter在2018年8月的数据表示，在桌面操作系统中，MacOS的使用份额为12.65%，次于Windows的82.51%位居第二。 MacOS 是1999年发行的经典 Mac OS 最终版本Mac OS 9 的后继者。</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="testimonials" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="row-title" title="用户评价">用户评价</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="testimonials-slider">
+                    <div>
+                        <div class="details-holder">
+                            <img class="photo" src="images/person1.jpg" alt="">
+                            <h4>果果喵</h4>
+                            <h5>网络工程师 @喵星科技</h5>
+                            <p>接触云服务有两年了，国内国外的各种云服务都试过，被坑过，也惊喜过。用TCat云服务产品3个多月，非常棒，值得使用。基本上数据中心都是CN2线路，对电信非常友好，Ping值在140ms-160ms，我是40M带宽，不管是白天晚上，下载可以达到3.7MB/s的速度，算是跑满了。不像某些商家，后台给限速限的很厉害。</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="details-holder">
+                            <img class="photo" src="images/person2.jpg" alt="">
+                            <h4>わたぬき きみひろ</h4>
+                            <h5>学生 @南京理工大学</h5>
+                            <p>用了一段时间了，TCat云服务的节点性能优良，可用性很高，节点控制面板也十分强大，客服人员态度很好，售后工单处理的很及时，价格也相当接地气，有时候还会有点小优惠，节点网速也很快，能达到承诺的带宽，长期使用TCat云服务很安心。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="more-features" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row-title" title="优势">优势</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="mfeature-box">
+                    <div class="mfeature-icon">
+                        <div class="icon-bg"><img src="images/cloud-light.png" alt="" /></div>
+                        <div class="icon-img"><img src="images/feature1.png" alt="" /></div>
+                    </div>
+                    <div class="mfeature-title">高速网络</div>
+                    <div class="mfeature-details">汇聚优秀线路，高速骨干接入</div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="mfeature-box">
+                    <div class="mfeature-icon">
+                        <div class="icon-bg"><img src="images/cloud-light.png" alt="" /></div>
+                        <div class="icon-img"><img src="images/feature2.png" alt="" /></div>
+                    </div>
+                    <div class="mfeature-title">精准测试</div>
+                    <div class="mfeature-details">一旦发现严重BUG会立刻修复</div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="mfeature-box">
+                    <div class="mfeature-icon">
+                        <div class="icon-bg"><img src="images/cloud-light.png" alt="" /></div>
+                        <div class="icon-img"><img src="images/feature3.png" alt="" /></div>
+                    </div>
+                    <div class="mfeature-title">完美教程</div>
+                    <div class="mfeature-details">我们的教程中心可以解决您的绝大多数问题</div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="mfeature-box">
+                    <div class="mfeature-icon">
+                        <div class="icon-bg"><img src="images/cloud-light.png" alt="" /></div>
+                        <div class="icon-img"><img src="images/feature4.png" alt="" /></div>
+                    </div>
+                    <div class="mfeature-title">资深运维</div>
+                    <div class="mfeature-details">配备资深运维值守来保证您的业务正常运行</div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="mfeature-box">
+                    <div class="mfeature-icon">
+                        <div class="icon-bg"><img src="images/cloud-light.png" alt="" /></div>
+                        <div class="icon-img"><img src="images/feature5.png" alt="" /></div>
+                    </div>
+                    <div class="mfeature-title">清爽UI</div>
+                    <div class="mfeature-details">避免这喧嚣的世界扰乱了您的眼</div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="mfeature-box">
+                    <div class="mfeature-icon">
+                        <div class="icon-bg"><img src="images/cloud-light.png" alt="" /></div>
+                        <div class="icon-img"><img src="images/feature6.png" alt="" /></div>
+                    </div>
+                    <div class="mfeature-title">多样服务</div>
+                    <div class="mfeature-details">我们提供多种服务供您选择</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="bluebg-info" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text">准备好了么？<br>
+让我们彼此相伴，携手同行。</div>
+                <a href="https://tcat.top/#/register" class="white-button">立即注册</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <!--<div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="footer-menu-holder">
+                    <h4>Company</h4>
+                    <ul class="footer-menu">
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="blog.html">News</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="footer-menu-holder">
+                    <h4>Services</h4>
+                    <ul class="footer-menu">
+                        <li><a href="webhosting.html">Web Hosting</a></li>
+                        <li><a href="webhosting.html">Cloud Hosting</a></li>
+                        <li><a href="webhosting.html">Dedicated Hosting</a></li>
+                        <li><a href="domain.html">Domain Names</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="footer-menu-holder">
+                    <h4>Other links</h4>
+                    <ul class="footer-menu">
+                        <li><a href="portal.html">Customer Portal</a></li>
+                        <li><a href="support.html">Support Portal</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="address-holder">
+                    <div class="phone"><i class="fa fa-phone"></i> 00 285 900 38502</div>
+                    <div class="email"><i class="fa fa-envelope"></i> hello@hostino.io</div>
+                    <div class="address">
+                        <i class="fa fa-map-marker"></i> 
+                        <div>Bahrain, Manama<br>
+                            Road 398, Block 125<br>
+                            The City Avenue<br>
+                            Office 38, floor 3</div>
+                    </div>
+                </div>
+            </div>-->
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="footer-menu-holder">
+                    <h4>关于我们</h4>
+                    <p>TCat云服务，与当今主流云计算解决方案保持同步，配备资深运维值守，保证您的业务正常运行。</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="footer-menu-holder">
+                                        <h4>更多链接</h4>
+<ul class="footer-menu">
+                                                        <li menuItemName="Home" class="" id="Primary_Navbar-Home">
+        <a href="tos.html">
+                        TOS/服务条款
+                                </a>
+            </li>
+        </ul>
+</div></div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="address-holder">
+                    <h4>联系方式</h4>
+                    <div class="email"><a href="https://t.me/Moexi"><i class="fa fa-telegram"></i></a>@Moexi</div>
+                    </div></div>
+        </div>
+        <div class="social row">
+            <div class="col-xs-2"><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></div>
+            <div class="col-xs-2"><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></div>
+            <div class="col-xs-2"><a href="https://www.youtube.com"><i class="fa fa-youtube-play"></i></a></div>
+            <div class="col-xs-2"><a href="https://www.behance.net"><i class="fa fa-behance"></i></a></div>
+            <div class="col-xs-2"><a href="https://dribbble.com"><i class="fa fa-dribbble"></i></a></div>
+            <div class="col-xs-2"><a href="https://www.pinterest.com"><i class="fa fa-pinterest-p"></i></a></div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/paper-full.min.js"></script>
+<script type="text/paperscript" src="js/metaball.js" data-paper-canvas="infobg"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

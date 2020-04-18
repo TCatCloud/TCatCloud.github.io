@@ -29,7 +29,7 @@
 13. Responsive Styles.
 -------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
-@import url("https://cdn.jsdelivr.net/gh/TCatCloud/TCatCloud.github.io@master/fonts/hostino.css");
+@import url("../fonts/hostino.css");
 /*------------------------------------------------------------------
 	1. General Styles
 -------------------------------------------------------------------*/
@@ -1459,7 +1459,7 @@ a.light-blue-button:focus{
 }
 #testimonials .row-title:before{
     content: "";
-    background-image: url("https://cdn.jsdelivr.net/gh/TCatCloud/TCatCloud.github.io@master/images/cloud.png");
+    background-image: url("../images/cloud.png");
     background-size: cover;
     left: 50%;
     margin-left: -340px;
@@ -2599,7 +2599,7 @@ a.white-less-shadow-button:focus{
     text-align: center;
 }
 #domainsearch .domainsearch{
-    background-image: url("https://cdn.jsdelivr.net/gh/TCatCloud/TCatCloud.github.io@master/images/bg1.png");
+    background-image: url("../images/bg1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70%;
@@ -2676,7 +2676,7 @@ a.white-less-shadow-button:focus{
 
 #info-whitebg{
     background-color: #ffffff;
-    background-image: url("https://cdn.jsdelivr.net/gh/TCatCloud/TCatCloud.github.io@master/images/clouds-bg.png");
+    background-image: url("../images/clouds-bg.png");
     background-size: 55%;
     background-position: center center;
     background-repeat: no-repeat;
